@@ -14,8 +14,9 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Ignore IDEA project files
+.idea/
+*.iml
+
+# Ignore Gradle build output directory
+build
